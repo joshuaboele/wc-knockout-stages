@@ -56,6 +56,11 @@ button{
 	padding: 15px;
 }
 
+button:hover{
+	background-color: #2980b9;
+	cursor: pointer;
+}
+
 
 .round {
 
@@ -73,11 +78,23 @@ button{
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 850px) {
 
 button{
 
-margin-top: 50px;
+display: block;
+margin: 50 auto 0px;
+
+}
+
+}
+
+@media (max-width: 480px) {
+
+button{
+
+display: block;
+margin: 50 auto 0px;
 
 }
 
